@@ -1,0 +1,34 @@
+{
+  "name": "desafioaccenture",
+  "version": "1.0.0",
+  "description": "Desafio de automação de testes para o cargo de QA Automation Engineer na Accenture",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open",
+    "test:feature": "cypress run --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamaraferreira/DesafioAccenture.git"
+  },
+  "keywords": [],
+  "author": "Tamara Ferreira",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tamaraferreira/DesafioAccenture/issues"
+  },
+  "homepage": "https://github.com/tamaraferreira/DesafioAccenture#readme",
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.1",
+    "@badeball/cypress-cucumber-preprocessor": "^23.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "@faker-js/faker": "^10.0.0",
+    "cypress": "^15.3.0",
+    "cypress-drag-drop": "^1.1.1"
+  }
+}
